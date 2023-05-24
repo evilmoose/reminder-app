@@ -9,7 +9,7 @@ const App = () => {
     <main>
       <section className='container'>
         <h3>{people.length} birthdays today</h3>
-        <List poeple={people} />
+        <List people={people} />
       </section>
     </main>
   );
